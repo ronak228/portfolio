@@ -1,0 +1,376 @@
+/* Custom CSS for Resume Template */
+
+/* Navbar */
+.navbar {
+    background-color: #333; /* Change the background color */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    color: #fff; /* Change the color of the toggler icon */
+}
+
+.navbar-toggler {
+    border-color: #fff; /* Change the border color of the toggler button */
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none;
+}
+
+/* Home Section */
+#home {
+    background-color: #f8f9fa; /* Change the background color */
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 2.5rem; /* Change the font size for your name */
+}
+
+#home p.lead {
+    font-size: 1.25rem; /* Change the font size for your professional title */
+}
+
+/* About Section */
+#about {
+    background-color: #fff; /* Change the background color */
+    padding: 3rem 0;
+}
+
+/* Experience and Education Section */
+#experience, #education {
+    background-color: #f8f9fa; /* Change the background color */
+    padding: 3rem 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #fff; /* Change the background color */
+    padding: 3rem 0;
+}
+
+.progress {
+    height: 30px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f8f9fa; /* Change the background color */
+    padding: 3rem 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Change the background color */
+    color: #fff; /* Change the text color */
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Additional Custom Styling Goes Here */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Home Section */
+#home {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+#home p.lead {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    padding: 50px 0;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Experience and Education Sections */
+#experience, #education {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px 0;
+}
+
+#skills h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Contact Form Styles */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+/* Submit Button Style */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px
+}
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #333; /* Background color */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Logo or site name font size */
+    color: #fff; /* Text color */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Toggler icon color */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem; /* Nav links font size */
+    color: #fff; /* Nav links text color */
+    margin-right: 15px; /* Spacing between nav links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Hover color for nav links */
+}
+
+/* Change the active link color if needed */
+.navbar-nav .nav-item.active .nav-link {
+    color: #007bff; /* Active link text color */
+}
+
+/* Home Section Styles */
+#home {
+    background-color: #f8f9fa; /* Background color */
+    text-align: center;
+    padding: 50px 0;
+}
+
+#home h1 {
+    font-size: 2.5rem; /* Font size for your name */
+    margin-top: 20px;
+}
+
+#home p.lead {
+    font-size: 1.25rem; /* Font size for your professional title */
+    margin-bottom: 20px;
+}
+
+/* About Section Styles */
+#about {
+    padding: 50px 0;
+}
+
+#about h2 {
+    font-size: 2rem; /* Font size for section headings */
+    margin-bottom: 20px;
+}
+
+/* Experience and Education Sections Styles */
+#experience, #education {
+    background-color: #f8f9fa; /* Background color */
+    padding: 50px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for cards */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Font size for job titles */
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem; /* Font size for job descriptions */
+}
+
+/* Skills Section Styles */
+#skills {
+    padding: 50px 0;
+}
+
+#skills h2 {
+    font-size: 2rem; /* Font size for section headings */
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #f8f9fa; /* Background color */
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-size: 2rem; /* Font size for section headings */
+    margin-bottom: 20px;
+}
+
+/* Contact Form Styles */
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+/* Submit Button Style */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Add responsive styles here */
+}
+/* Navbar Styles */
+.navbar {
+    background-color: #333; /* Background color */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Logo or site name font size */
+    color: #fff; /* Text color */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Toggler icon color */
+}
+
+.navbar-nav {
+    display: inline-block; /* Display the navigation items in a single line */
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px; /* Spacing between nav items */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem; /* Nav links font size */
+    color: #fff; /* Nav links text color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Hover color for nav links */
+}
+
+/* Change the active link color if needed */
+.navbar-nav .nav-item.active .nav-link {
+    color: #007bff; /* Active link text color */
+}
